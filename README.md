@@ -64,7 +64,11 @@ Para realizar a implantação do projeto, é necessário rodar:
 npm run build
 ```
 
-E implementar um Web Server produtivo com o Nginx e copiar o contéudo do diretório "build/" para o diretório do nginx "/etc/nginx/sites-enabled/{your_domain}"
+E rodar o Docker Compose
+
+```
+docker-compose up -d
+```
 
 ## Tests
 
