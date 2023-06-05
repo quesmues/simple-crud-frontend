@@ -1,0 +1,37 @@
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+  }
+  
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Login-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+.Login-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    font-weight: 800;
+}
