@@ -98,6 +98,7 @@ export function Usuarios({ token }: PropsToken) {
       data().catch(console.error);
     }
     setShow(false);
+    getUsers().catch(console.error);
   };
 
   return (
